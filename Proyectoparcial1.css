@@ -28,7 +28,7 @@ body {
 	
 }
 
-.userdata{
+.userdata{	/* Intrucciones de ajuste a las barras de validación de datos */
 	float: right;
 	color: white;
 	padding-right:10px;
@@ -37,8 +37,8 @@ body {
 	font-size: 100%;
  }
 
-#img{
-	float: left;
+#img{	/* cabecera fija en color gris */
+	float: left;		
 	padding-left:30px;
 	padding-top: 17px;
 
