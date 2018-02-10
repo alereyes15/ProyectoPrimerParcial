@@ -1,0 +1,45 @@
+#titulo {
+	text-align: center; /* Alineación de texto al centro de la página*/
+	color: #4d180d; /* Color de texto*/
+	font-family: Roboto; /* Tipo de letra en tipo Roboto*/
+	font-variant-caps: small-caps; /* Letras en mayúsculas y las iniciales en mayor tamaño*/
+	font-size: 400%; /* Tamaño de texto*/
+	line-height: 100px; /* Grosor de las letras del texto*/
+	font-stretch: 100PX; /* Extensión de la cara de fuente expandida*/
+	font-weight: normal; /* Especifica el peso en bold (negritas) de la fuente*/
+	letter-spacing: 0.5em; /* Espaciado que existe entre letras en el texto*/
+}
+
+body {
+	background-image: url("3.jpg");  /* Imagen de fondo*/
+	margin: 0; /* Maergen en 0 de la cabecera fija*/
+	padding: 0; /* Padding en 0 de la cabecera fija*/
+	padding-top: 130px; /* Relleno superior igual a la altura de la cabecera*/
+
+}
+
+#line-head {
+	background: #333; /* cabecera fija en color gris */
+	height: 80px; /* Tamaño de la barra en la cabecera fija */
+	width: 100%; /* La cabecera ocupa el ancho completo de la página */
+	left: 0; /* Posición de la cabecera al lado izquierdo */
+	top: 0; /* Posición de la cabecera pegada arriba */
+	position: fixed; /* Hacemos que la cabecera tenga una posición fija */
+	
+}
+
+.userdata{
+	float: right;
+	color: white;
+	padding-right:10px;
+	font-family: verdana;
+	padding-top: 36px;
+	font-size: 100%;
+ }
+
+#img{
+	float: left;
+	padding-left:30px;
+	padding-top: 17px;
+
+ }
