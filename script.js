@@ -59,3 +59,21 @@ function menu () {
 	}
 
 }
+
+
+function swich (){
+
+	var change = document.getElementById("cambio");
+	//utilice el atributo name porque al usar el atributo src ma mandaba la direccion absoluta, desde el c:/
+	if(change.name == "like"){		
+		change.src = "nolike.jpg";
+		change.name = "nolike"
+		
+	}
+
+	else{
+		change.src = "like.jpg";
+
+		change.name = "like"
+	}
+}
