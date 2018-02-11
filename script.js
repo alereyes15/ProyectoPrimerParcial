@@ -4,20 +4,46 @@ function validation () {
 	
 	var user = document.getElementById("username")
 	var pass = document.getElementById("password")
-	var email = document.getElementById("email")
 
-	if (user === ""){
+	if (user.value === ""){
 		alert("Por favor digite el Usuario.");
-		return false;
+		
 	}
-	if (pass === "") {
+	if (pass.value === "") {
 		alert("Por favor digite la Clave.");
-		return false;
+		
 	}
+	return false;
 
-	if (email === "") {
-		alert("Por favor digite el correo electrónico;");
-		return false;
+}
+
+function validar(){
+
+	var user = document.getElementById("username")
+	var pass = document.getElementById("password")
+
+	if (user.value == pass.value)
+
+	    {
+
+			alert('¡La contraseña no puede ser igual al usuario!');
+
+			pass.focus();
+
+		return;
+
+		}
+
+	else
+
+	{
+
+		/* Si todo está OK se prosigue con el ingreso: */
+
+		    alert('¡Datos válidos, continue!');
+
+		document.form.submit;
+
 	}
 
 }
