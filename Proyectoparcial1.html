@@ -2,7 +2,9 @@
 <html lang="Es" > <!--< Establece el lenguaje >-->
 <head>
 	<meta charset="UTF-8"> <!--< Condición de carateres unicode e ISO 10646 >-->
-	<link rel=StyleSheet href="Proyectoparcial1.css"> <!--< Carga el archivo de estilos tipo css >-->
+	<link rel=StyleSheet href="Proyectoparcial1.css"> 
+	<link rel=StyleSheet href="bienvenida.css"> <!--< Carga el archivo de estilos tipo css >-->
+	<!--< Carga el archivo de estilos tipo css >-->
 	<title>
 		Proyectoparcial1 
 	</title>
@@ -11,15 +13,35 @@
 	<div id="line-head" style="position: fixed; top: 0px">
 		<div class="userdata">
 			<form> 										
-			<label> User name: </label>
-			<input type="text" name="username" id="username"/>
-			<label> Password: </label>
-			<input type="password" name="Password" id="password" />
-			<button onclick="validation();validar();" >Ingresar</button/>
+				<label> User name: </label>
+				<input type="text" name="username" id="username"/>
+				<label> Password: </label>
+				<input type="password" name="Password" id="password" />
+				<button onclick="validation();validar();" >Ingresar</button/>
+			</form>
 		</div>
-	<div id="img"> <img src="1.png" width="80px"/> </div>
+		<div onclick="menu();" id="img"> <img src="1.png" width="80px"/> </div>
+		<div id="pestaña">
+			<ul>
+				<li>
+					<a href="Proyectoparcial1.html">Bienvenida</a>
+				</li>
+				<li>
+					<a href="">¿Quienes somos?</a>
+				</li>
+				<li>
+					<a href="Arelysbiography.html">Biografia Arely</a>
+				</li>
+				<li>
+					<a href="">Biografia Alejandra</a>
+				</li>
+				<li>
+					<a href="">Contactanos</a>
+				</li>
+			</ul>
+	 	</div>
 
-	</form>
+	
 
 	</div> <!--< Instrucción de carga de cabecera css>-->
 
