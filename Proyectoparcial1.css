@@ -43,3 +43,64 @@ body {
 	padding-top: 17px;
 
  }
+
+.img-aling{
+	clear: none;
+	height: 500px;
+	float: left;
+	margin-left: 230px;
+
+}
+
+.content {
+	text-align: justify;
+    margin: 20px;
+    padding-top: 0px;
+    color: white;
+    font-size: 120%;
+
+ }
+
+.div-leftup{
+	margin-left: 50px;
+	width: 400px;
+	height: 500px;
+	float: left;
+	background-color:rgba(100,0,0, 0.5);
+
+}
+
+.div-global{
+	height: 500px;
+
+}
+
+.div-rightup{
+	margin-right: 50px;
+	width: 400px;
+	height: 500px;
+	float: right;
+	background-color:rgba(100,0,0, 0.5);
+
+}
+
+.div-center{
+	padding-top:5px;
+	height: 250px;
+	width: 700px;
+	margin: auto;
+	background-color:rgba(100,0,0, 0.5);
+
+}
+
+.subtitulo{
+ 	text-align: center; 
+	color: white; /* Color de texto*/
+	font-family: Roboto; /* Tipo de letra en tipo Roboto*/
+	font-variant-caps: small-caps; /* Letras en mayúsculas y las iniciales en mayor tamaño*/
+	font-size: 150%; /* Tamaño de texto*/
+	line-height: 40px; /* Grosor de las letras del texto*/
+	font-stretch: 80PX; /* Extensión de la cara de fuente expandida*/
+	font-weight: normal; /* Especifica el peso en bold (negritas) de la fuente*/
+	letter-spacing: 0.4em;
+}
