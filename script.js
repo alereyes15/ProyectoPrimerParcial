@@ -47,3 +47,15 @@ function validar(){
 	}
 
 }
+
+function menu () {
+	var oprimo = document.getElementById("pestaña");
+
+	if(oprimo.style.marginLeft === "-240px"){
+		oprimo.style.marginLeft="0px";
+	}
+	else {
+		oprimo.style.marginLeft="-240px";
+	}
+
+}
