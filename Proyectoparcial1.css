@@ -15,7 +15,6 @@ body {
 	margin: 0; /* Maergen en 0 de la cabecera fija*/
 	padding: 0; /* Padding en 0 de la cabecera fija*/
 	padding-top: 130px; /* Relleno superior igual a la altura de la cabecera*/
-
 }
 
 #line-head {
@@ -25,7 +24,6 @@ body {
 	left: 0; /* Posición de la cabecera al lado izquierdo */
 	top: 0; /* Posición de la cabecera pegada arriba */
 	position: fixed; /* Hacemos que la cabecera tenga una posición fija */
-	
 }
 
 .userdata{	/* Intrucciones de ajuste a las barras de validación de datos */
@@ -41,7 +39,6 @@ body {
 	float: left;		
 	padding-left:30px;
 	padding-top: 10px;
-
  }
 
 .img-aling{
@@ -49,7 +46,6 @@ body {
 	height: 500px;
 	float: left;
 	margin-left: 290px;
-
 }
 
 .content {
@@ -58,7 +54,6 @@ body {
     padding-top: 0px;
     color: white;
     font-size: 122%;
-
  }
 
 .div-leftup{
@@ -67,12 +62,10 @@ body {
 	height: 500px;
 	float: left;
 	background-color:rgba(100,0,0, 0.5);
-
 }
 
 .div-global{
 	height: 500px;
-
 }
 
 .div-rightup{
@@ -81,7 +74,6 @@ body {
 	height: 500px;
 	float: right;
 	background-color:rgba(100,0,0, 0.5);
-
 }
 
 .div-center{
@@ -90,7 +82,6 @@ body {
 	width: 700px;
 	margin: auto;
 	background-color:rgba(100,0,0, 0.5);
-
 }
 
 .subtitulo{
@@ -131,7 +122,6 @@ body {
 	height: 1000px;	
 	margin-left: -240px;
 	-webkit-transition: all .2s ease-in-out; 
-
 }
 
 #pestaña ul{
@@ -153,15 +143,12 @@ body {
 	font-weight: normal; /* Especifica el peso en bold (negritas) de la fuente*/
 	letter-spacing: 0.01em; 
 	list-style: none;
-
 }
 
 #pestaña ul li a:hover{
 	display:block; 
 	text-decoration:none;
-	background: rgba(0,0,0, 0.3);
-	
-	
+	background: rgba(0,0,0, 0.3);	
 }
 	
 #redes {
@@ -173,14 +160,12 @@ body {
 	padding-right: 95px;
 	width: 186px;
 	height: 238px;
-
 }
 
 table {
     font-family: Roboto;
     letter-spacing: 0.03em; 
     width: 70%;
-
 }
 
 td, th {
@@ -218,4 +203,33 @@ tr:nth-child(even) {
  	background-size: 500px 70px;
  	background-position: 50% 50%; 
  	background-position: bottom;
+}
 
+#map iframe{
+	width: 900px;
+	height: 500px;
+	padding-top: 45px;
+}
+
+.img-cel { 
+	width: 10px;
+	padding-left: 700px;
+
+
+}
+.alerta{
+	text-align: center; 
+	font-family: Roboto; 
+	font-variant-caps: small-caps; 
+	font-size: 100%; 
+	line-height: 10px; 
+	font-stretch: 10PX;  
+	letter-spacing: 0.3em; 
+	text-align: left 100px;
+	padding-left: 10px;
+	padding-left:150px;
+	margin-right: 100px;
+}
+.alertamensaje{
+	width: 300px;
+}

@@ -6,14 +6,19 @@ function validation () {
 	var pass = document.getElementById("password")
 
 	if (user.value === ""){
-		alert("Por favor digite el Usuario.");
+		alert("Por favor digite el Usuario.");		
+		return false;
 		
 	}
 	if (pass.value === "") {
-		alert("Por favor digite la Clave.");
+		alert("Por favor digite la Clave.");		
+		return false;
 		
 	}
-	return false;
+
+	alert("Datos validos");
+
+
 
 }
 
@@ -71,4 +76,12 @@ function swich (){
 		change.name = "like"
 	}
 }
+function visitantes (){
+	var ran = Math.round(Math.random()*50000)
+	document.getElementById("visitantes").innerHTML="Usted es el visitante " + ran + " de estas página.";
+
+}
+
+				
+	
 
