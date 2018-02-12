@@ -37,13 +37,7 @@ function validar(){
 	else
 
 	{
-
-		/* Si todo está OK se prosigue con el ingreso: */
-
-		    alert('¡Datos válidos, continue!');
-
-		document.form.submit;
-
+		document.location.href=bienvenida.html;
 	}
 
 }
@@ -77,3 +71,4 @@ function swich (){
 		change.name = "like"
 	}
 }
+
