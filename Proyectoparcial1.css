@@ -31,8 +31,8 @@ body {
 .userdata{	/* Intrucciones de ajuste a las barras de validación de datos */
 	float: right;
 	color: white;
-	padding-right:10px;
-	font-family: verdana;
+	padding-right:15px;
+	font-family: Roboto;
 	padding-top: 36px;
 	font-size: 100%;
  }
@@ -48,7 +48,7 @@ body {
 	clear: none;
 	height: 500px;
 	float: left;
-	margin-left: 230px;
+	margin-left: 290px;
 
 }
 
@@ -57,7 +57,7 @@ body {
     margin: 20px;
     padding-top: 0px;
     color: white;
-    font-size: 120%;
+    font-size: 122%;
 
  }
 
@@ -104,3 +104,54 @@ body {
 	font-weight: normal; /* Especifica el peso en bold (negritas) de la fuente*/
 	letter-spacing: 0.4em;
 }
+.icon-aling{
+	float:right;
+	margin-right: 200px;
+	margin-top: -150px;
+}
+#pestaña {
+	margin-top: 80px;
+	background-color: #ccc;
+	width: 240px;
+	height: 1000px;	
+	margin-left: -240px;
+	-webkit-transition: all .2s ease-in-out; /*propiedad de transisiones*/
+}
+
+#pestaña ul{
+	list-style-type: none;
+	font-family: Roboto;
+	font-size: 120%; /* Tamaño de texto*/
+	font-variant-caps: small-caps; /* Letras en mayúsculas y las iniciales en mayor tamaño*/
+	font-size: 100%; /* Tamaño de texto*/
+	line-height: 100px; /* Grosor de las letras del texto*/
+	font-stretch: 80PX; /* Extensión de la cara de fuente expandida*/
+	font-weight: normal; /* Especifica el peso en bold (negritas) de la fuente*/
+	letter-spacing: 0.01em;
+}
+
+#pestaña ul li{
+	height: 80px;
+	padding-top: 35px;
+	box-sizing: border-box;/*para que el padding no modifique el tamaño del div*/
+
+}
+
+
+#pestaña ul li a{
+	text-decoration: none;
+	display: block; 
+}
+	
+}
+#redes {
+	margin-top: 30px;
+}
+
+#like{
+	width: 186px;
+	height: 238px;
+	margin: auto;
+}
+
+

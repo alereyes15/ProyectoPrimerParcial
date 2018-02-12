@@ -4,43 +4,39 @@
 	<meta charset="UTF-8"> <!--< Condición de carateres unicode e ISO 10646 >-->
 	<link rel=StyleSheet href="Proyectoparcial1.css">
 	<link rel=StyleSheet href="arelysbiography.css">
-	<link rel=StyleSheet href="bienvenida.css"> <!--< Carga el archivo de estilos tipo css >-->
 	<title>
 		Biografías 
 	</title>
 </head>
 <body>
-
 	<div id="line-head" style="position: fixed; top: 0px">
-
-
 	</div> 
-	
 	<div id="line-head" style="position: fixed; top: 0px">
 		<div class="userdata">
-			<button>Cerrar Sesion</button/>
+			<a href="Proyectoparcial1.html">
+				<button onclick="fn()" >Cerrar Sesion</button/>
+			</a>
 		</div>
 		<div onclick="menu();" id="img"> <img src="1.png" width="80px"/> </div>
 		<div id="pestaña">
 			<ul>
 				<li>
-					<a href="Proyectoparcial1.html">Bienvenida</a>
+					<a href="Bienvenida.html">Bienvenida</a>
 				</li>
 				<li>
-					<a href="">¿Quienes somos?</a>
+					<a href="QS.html">¿Quienes somos?</a>
 				</li>
 				<li>
 					<a href="Arelysbiography.html">Biografia Arely</a>
 				</li>
 				<li>
-					<a href="">Biografia Alejandra</a>
+					<a href="Alesbiography.html">Biografia Alejandra</a>
 				</li>
 				<li>
-					<a href="">Contactanos</a>
+					<a href="contacto.html">Contactanos</a>
 				</li>
 			</ul>
 	 	</div>
-
 	</div> <!--< Instrucción de carga de cabecera css>-->
 	<em><h1 id="titulo"> Arely's Biography</h1></em> <!--<Instrucción de título css>-->
 	<script language="javascript" src="script.js"></script> <!--< Carga de instrucciones JavaScript, se recomienda dejar al último por el tipo y peso de los elementos dinámicos>-->
@@ -50,7 +46,8 @@
 			<div class="content"> 
 				<p class="subtitulo"> Historia </p>
 				<p>
-					Nací el 6 de abril del 1991, en la ciudad de Cancún Quintana Roo. Primera hija de la familia salazar Chan. El total de miembros en la familia es de 5 personas, todos de origen cancunense a excepción de mis padres, ya que mi madre nació en Valladolid Yucatán y mi padre de Ticul Yucatán. 
+	                Nací el 6 de abril del 1991, en la ciudad de Cancún Quintana Roo. Primera hija de la familia salazar Chan. El total de miembros en la familia es de 5 personas, todos de origen cancunense a excepción de mis padres, ya que mi madre nació en Valladolid Yucatán y mi padre de Ticul Yucatán. 
+	                <br>
 	                Los primeros años de vida fueron en la bello estado de Quintana Roo, sin embargo mi padre se metió a trabajar en la milicia y fue enviado un año en la Atlixco, Puebla y 9 años en la ciudad Torreón, Coahuila. Mi padre causó baja en la milicia y regresamos a vivir en nuestra ciudad de origen.
 				</p>
 			</div>
@@ -80,6 +77,11 @@
 				</p>
 				
 			</div>
+		</div>
+ 		<div class="icon-aling"> 
+  				<a href="cvsalazar.pdf" download>
+		 		<img src="cv.png" width="140px" height="190px" alt="cv">
+		 		</a>
 		</div>
 </body>
 </html>
